@@ -7,9 +7,9 @@ pipeline {
                 sh 'javac Hello.java'
             }
         }
-        stage('run') {
+        stage('deneme') {
             steps {
-                echo 'Running the compiled java code..'
+                echo 'Running the compiled java code...'
                 sh 'java Hello'
             }
         }
